@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: BOOK-STORE-SERVICE
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 10KB
+      max-file-size: 13MB
+      max-request-size: 13MB
